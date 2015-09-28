@@ -26,9 +26,9 @@ function removeFromArray(arr, item) {
 }
 
 let clickEvents = ['click'];
-if ('ontouchstart' in document.documentElement) {
-  clickEvents.push('touchstart');
-}
+// if ('ontouchstart' in document.documentElement) {
+//   clickEvents.push('touchstart');
+// }
 
 const transitionEndEvents = {
   'WebkitTransition' : 'webkitTransitionEnd',
@@ -477,4 +477,3 @@ const Drop = createContext();
 document.addEventListener('DOMContentLoaded', () => {
   Drop.updateBodyClasses();
 });
-

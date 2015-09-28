@@ -59,9 +59,9 @@ function removeFromArray(arr, item) {
 }
 
 var clickEvents = ['click'];
-if ('ontouchstart' in document.documentElement) {
-  clickEvents.push('touchstart');
-}
+// if ('ontouchstart' in document.documentElement) {
+//   clickEvents.push('touchstart');
+// }
 
 var transitionEndEvents = {
   'WebkitTransition': 'webkitTransitionEnd',
